@@ -1,15 +1,10 @@
 package com.demowebshop.automation;
 
-import model.User;
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-public class Registration_test extends Base{
+public class RegistrationTest extends Base{
 
 
 @Test

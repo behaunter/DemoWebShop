@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="Login" value="j@mail.ua"/>
+    <parameter name="Password" value="123456"/>
+    <test name="successfullLoginWithXML">
+        <classes>
+            <class name= "com.demowebshop.automation.LoginTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
+
